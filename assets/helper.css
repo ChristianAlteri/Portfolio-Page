@@ -1,0 +1,11 @@
+.right-push {
+    padding: var(--site-spacing);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-titles{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}

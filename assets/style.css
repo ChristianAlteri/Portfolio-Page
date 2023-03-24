@@ -1,0 +1,31 @@
+.body{
+
+}
+
+body ul{
+    padding: 1rem;
+}
+
+main h1{
+    display: flex;
+    padding: var(--site-spacing);
+}
+
+footer{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: end; */
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    text-align: center;
+    margin: var(--site-spacing);
+    margin-left: 117px;
+}
+
+@media screen and (max-width: 390px) {
+body ul{
+        text-size-adjust: 16px;
+        padding: 0.3rem
+    }
+}
