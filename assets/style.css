@@ -54,9 +54,32 @@ footer{
     margin-right: auto;
 }
 
-@media screen and (max-width: 550px) {
+div{
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
 body ul{
     display: none;
       
     }
+}
+@media screen and (max-width: 760px) {
+.container{
+    display: none;
+      
+    }
+.hidden{
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+h1, footer{
+    font-size: 4rem;
+    margin: 50px;
+    justify-content: center;
+    right: 50%;
+    width: 86rem;
+    /* text-align: center; */
+}    
 }
