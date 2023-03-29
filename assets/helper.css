@@ -1,11 +1,62 @@
+/* lines everything nicely right */
 .right-push {
     padding: var(--site-spacing);
     display: flex;
     justify-content: flex-end;
 }
-
+.center {
+    padding: var(--site-spacing);
+    text-align: center;
+    
+}
+/* font for titles */
 .main-titles{
     font-size: 2rem;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: var(--font);
+}
+
+h2{
+    text-align: center;
+    font-weight: bold; 
+    padding: var(--site-spacing); 
+}
+
+.infront{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-img { 
+    /* width: auto; */
+    background-image: src='./assets/IMG/fire.jpg';
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    padding: 20px;
+    }  
+
+
+.article-standard{
+    font-size: 1rem;
+    text-align: center;
+    
+    /* font-weight: bold; */
+    font-family: var(--font);
+    border-style: dotted;
+    margin: 300px;
+    
+}
+
+
+/* font for other text */
+.text{
+    /* color: white; */
+    font-family: var(--font);
+    
+}
+
+section li{
+    margin: 1rem;
 }

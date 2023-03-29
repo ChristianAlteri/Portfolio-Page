@@ -1,3 +1,6 @@
 :root{
+    --font: 'Figtree', sans-serif;
+    --font-color: #fffff
+
     --site-spacing: 1rem;
 }
